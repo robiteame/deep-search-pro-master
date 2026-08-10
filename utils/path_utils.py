@@ -4,11 +4,6 @@ from typing import Optional
 
 
 def resolve_path(filename: str, session_dir: Optional[str] = None) -> str:
-    import os
-from pathlib import Path
-from typing import Optional
-
-def resolve_path(filename: str, session_dir: Optional[str] = None) -> str:
     """
     统一的文件路径解析工具方法。
 
